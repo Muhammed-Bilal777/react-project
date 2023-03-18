@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-         lets connect to github pages
+         Happt to start the project
       </header>
     </div>
   );
