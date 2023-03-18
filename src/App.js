@@ -10,15 +10,11 @@ function App() {
   return (
       <>
         <Router>
-          <nav>
-           
-          <Link to="/sidebar">sidebar</Link>
-          </nav>
-          <Routes>
+           <Sidebar />
+          <Routes >
               <Route path="/"  element={<Home />} />
               <Route path='/about' element={<About /> } /> 
-              <Route path='/layout' element={<Layout /> } /> 
-               
+              <Route path='/layout' element={<Layout /> } />       
           </Routes>
         </Router>
           
