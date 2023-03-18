@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-         Deploying Github Action
+         lets connect to github pages
       </header>
     </div>
   );
