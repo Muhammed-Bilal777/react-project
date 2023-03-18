@@ -11,16 +11,14 @@ function App() {
       <>
         <Router>
           <nav>
-          <Link to="/">Home </Link>
-          <Link to="/about">ABout</Link>
-          <Link to="/layout">Layout</Link>
+           
           <Link to="/sidebar">sidebar</Link>
           </nav>
           <Routes>
               <Route path="/"  element={<Home />} />
               <Route path='/about' element={<About /> } /> 
               <Route path='/layout' element={<Layout /> } /> 
-              <Route path='/sidebar' element={<Sidebar /> } /> 
+               
           </Routes>
         </Router>
           
